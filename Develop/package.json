@@ -1,15 +1,19 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "inquirer": "^7.3.3"
-  }
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
+  },
+  "keywords": [],
+  "description": ""
 }

@@ -1,5 +1,8 @@
 # Note-Taker
+
 This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp.
+
+<img src= "Develop/Screen Shot 2020-10-17 at 5.16.43 PM copy.jpg">
 
 
 ## Tools used for this project

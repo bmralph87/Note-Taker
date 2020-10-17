@@ -19,6 +19,21 @@ router.get("/notes/:id", (req, res) => {
   }
 });
 
+// console.log(note)
+
+// for (let i = 0, i <notes.length; i++) {
+//   if(chosen === notes.[i].routeName) {
+//     return res.json(notes[i]);
+//   }
+// }
+
+// return res.json(false);
+// });
+
+
+
+
+
 router.post("/notes", (req, res) => {
   // set id based on what the next index of the array will be
   req.body.id = notes.length.toString();
@@ -28,7 +43,8 @@ router.post("/notes", (req, res) => {
     res.status(400).send("The note is not properly formatted.");
   } else {
     const notes= createNewNote(req.body, notes);
-    res.json(note);
+    // console.log(notes);
+    res.json(notes);
   }
 });
 

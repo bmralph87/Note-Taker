@@ -35,9 +35,18 @@ function findById(id, notesArray) {
 }
 
 
+function deleteById(id, notesArray) {
+  const newNotes = notesArray.filter((note) => note.id !== id);
+  console.log("newNotes = "+ JSON.stringify(newNotes));
+ fs.writeFileSync(
+  path.join(__dirname, '../db/db.json'),
+  JSON.stringify({ notes: newNotes }, null, 2)
+ );
+}
+
 function createNewNote(body, notesArray) {
-  const notes = body;
-  notesArray.push(notes);
+  const note = body;
+  notesArray.push(note);
   fs.writeFileSync(
     path.join(__dirname, '../db/db.json'),
     JSON.stringify({ notes: notesArray }, null, 2)
@@ -46,11 +55,11 @@ function createNewNote(body, notesArray) {
   // console.log(note);
 }
 
-function validateNote(notes) {
-  if (!notes.title || typeof notes.title !== 'string') {
+function validateNote(note) {
+  if (!note.title || typeof note.title !== 'string') {
     return false;
   }
-  return res.json(false);
+  return true;
 }
 
 
@@ -58,7 +67,8 @@ module.exports = {
   filterByQuery,
   findById,
   createNewNote,
-  validateNote
+  validateNote,
+  deleteById,
 };
 
 // const saveTitle = Event => {

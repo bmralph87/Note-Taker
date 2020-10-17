@@ -21,9 +21,14 @@
       "id": "3"
     },
     {
-        "title": "Note Title",
-        "text": "Note Text",
-        "id": "4"
-      }
-    ]
-  }
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "4"
+    },
+    {
+      "title": "Grocery List",
+      "text": "Honeycrisp Apples\nAvocado\nLemons\nLimes\nReduced Fat Wheat Thins\nVegan Shreds\nUnsweetened Vanilla Almond Milk\n",
+      "id": "5"
+    }
+  ]
+}

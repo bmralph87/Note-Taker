@@ -1,19 +1,34 @@
 {
   "notes": [
     {
-      "title": "another note",
-      "text": "new note\n\n\n\n",
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "0"
+    },
+    {
+      "title": "Note Title",
+      "text": "Note Text",
       "id": "1"
     },
     {
-      "title": "anoter",
-      "text": "asdfas",
-      "id": "1"
-    },
-    {
-      "title": "mew",
-      "text": "two",
+      "title": "Note Title",
+      "text": "Note Text",
       "id": "2"
+    },
+    {
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "3"
+    },
+    {
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "4"
+    },
+    {
+      "title": "Grocery List",
+      "text": "Honeycrisp Apples\nAvocado\nLemons\nLimes\nReduced Fat Wheat Thins\nVegan Shreds\nUnsweetened Vanilla Almond Milk\n",
+      "id": "5"
     }
   ]
 }

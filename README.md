@@ -19,20 +19,20 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 6.	Add audio file via screencastify recording
 
 ## Description/Usage: 
-Note-Taker is a Node.js command-line application that 
+Note-Taker is a Node.js command-line application that deploys a note-taking application utilizing Express methodology
 
 
 #### My repo can be found [Here](https://github.com/bmralph87/TeamProfile-Generator)
-
 
 
 ## Sites used for Knowledge:
 
 [Node Installation](https://nodejs.org/en/download/package-manager/)
 [Heroku](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
-[Express](https://expressjs.com/en/4x/api.html)
-[Uninstalling Packages and Dependencies](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
 [Express Installation](https://www.npmjs.com/package/express)
+[Express API Documentation](https://expressjs.com/en/4x/api.html)
+[Uninstalling Packages and Dependencies](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
+
 
 
 ## Honorable Mention:

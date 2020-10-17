@@ -1,7 +1,10 @@
 const router = require("express").Router();
 const { filterByQuery, findById, createNewNote, validateNote, deleteById } = require("../../lib/notes");
 const { notes } = require("../../db/db.json");
-const {getNotes} = require('./index');
+const util = require("util");
+const fs = require("fs");
+const path = require("path");
+
 
 router.get("/notes", (req, res) => {
   let results = notes;
@@ -20,10 +23,11 @@ router.get("/notes/:id", (req, res) => {
   }
 });
 
+
 router.delete("/notes/:id", (req, res) => {
-  deleteById(req.params.id, notes);
-  getNotes();
-  res.json(204).end();
+  const check = deleteById(req.params.id, notes)
+  console.log(`CHECK IN PATH = ${JSON.stringify(check)}`)
+  res.json(check)
 });
 
 

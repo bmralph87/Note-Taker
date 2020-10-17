@@ -1,3 +1,19 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "title": "another note",
+      "text": "new note\n\n\n\n",
+      "id": "1"
+    },
+    {
+      "title": "anoter",
+      "text": "asdfas",
+      "id": "1"
+    },
+    {
+      "title": "mew",
+      "text": "two",
+      "id": "2"
+    }
+  ]
 }

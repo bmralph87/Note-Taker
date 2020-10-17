@@ -4,6 +4,7 @@ var $saveNoteBtn = $(".save-note");
 var $newNoteBtn = $(".new-note");
 var $noteList = $(".list-container .list-group");
 
+
 // activeNote is used to keep track of the note in the textarea
 var activeNote = {};
 
@@ -66,7 +67,6 @@ var handleNoteSave = function () {
 var handleNoteDelete = function (event) {
     // prevents the click listener for the list from being called when the button inside of it is clicked
     event.stopPropagation();
-
     var note = $(this)
         .parent(".list-group-item")
         .data();
@@ -74,11 +74,13 @@ var handleNoteDelete = function (event) {
     if (activeNote.id === note.id) {
         activeNote = {};
     }
-
-    deleteNote(note.id).then(function () {
+    console.log({note})
+    deleteNote(note.id).then(function (res) {
         console.log("after deleteNote")
-        getAndRenderNotes();
-        renderActiveNote();
+        console.log({res})
+        renderNoteList(res)
+        // getAndRenderNotes(res);
+        // renderActiveNote();
     });
 };
 
@@ -128,7 +130,7 @@ var renderNoteList = function (notes) {
 
 // Gets notes from the db and renders them to the sidebar
 var getAndRenderNotes = function () {
-    return getNotes().then(function (data) {
+    getNotes().then(function (data) {
         console.log("getAndRenderNotes " +JSON.stringify(data))
         renderNoteList(data);
     });
@@ -143,5 +145,3 @@ $noteText.on("keyup", handleRenderSaveBtn);
 
 // Gets and renders the initial list of notes
 getAndRenderNotes();
-
-module.exports = getNotes;

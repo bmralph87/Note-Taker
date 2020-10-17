@@ -1,6 +1,7 @@
 // const { text } = require("express");
 const fs = require("fs");
 const path = require("path");
+const router = require("express").Router();
 
 function filterByQuery(query, notesArray) {
 }
@@ -34,14 +35,14 @@ function findById(id, notesArray) {
   return result;
 }
 
-
 function deleteById(id, notesArray) {
   const newNotes = notesArray.filter((note) => note.id !== id);
   console.log("newNotes = "+ JSON.stringify(newNotes));
- fs.writeFileSync(
+  fs.writeFileSync(
   path.join(__dirname, '../db/db.json'),
   JSON.stringify({ notes: newNotes }, null, 2)
- );
+  )
+    return newNotes
 }
 
 function createNewNote(body, notesArray) {

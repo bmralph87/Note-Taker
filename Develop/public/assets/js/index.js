@@ -76,6 +76,7 @@ var handleNoteDelete = function (event) {
     }
 
     deleteNote(note.id).then(function () {
+        console.log("after deleteNote")
         getAndRenderNotes();
         renderActiveNote();
     });
@@ -128,6 +129,7 @@ var renderNoteList = function (notes) {
 // Gets notes from the db and renders them to the sidebar
 var getAndRenderNotes = function () {
     return getNotes().then(function (data) {
+        console.log("getAndRenderNotes " +JSON.stringify(data))
         renderNoteList(data);
     });
 };
@@ -142,3 +144,4 @@ $noteText.on("keyup", handleRenderSaveBtn);
 // Gets and renders the initial list of notes
 getAndRenderNotes();
 
+module.exports = getNotes;

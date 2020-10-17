@@ -18,11 +18,12 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 5. Successfully generate a team profile app
 6.	Add audio file via screencastify recording
 
+
 ## Description/Usage: 
-Note-Taker is a Node.js command-line application that deploys a note-taking application utilizing Express methodology
+Note-Taker is a Node.js command-line application that deploys a note-taking application using an Express.js back end and retrieves note data from a JSON file.
 
 
-#### My repo can be found [Here](https://github.com/bmralph87/TeamProfile-Generator)
+#### My repo can be found [Here](https://github.com/bmralph87/Note-Taker)
 
 
 ## Sites used for Knowledge:

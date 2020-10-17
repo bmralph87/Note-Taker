@@ -14,13 +14,14 @@ function filterByQuery(query, notesArray) {
     notesArray.push(note);
     fs.writeFileSync(
       path.join(__dirname, '../db/db.json'),
-      JSON.stringify({animals: animalsArray}, null, 2)
+      JSON.stringify({ notes: notesArray}, null, 2)
     );
     return note;
+    // console.log(note);
   }
   
   function validateNote(note) {
-    if (!animal.name || typeof note.name !== 'string') {
+    if (!notes.name || typeof note.name !== 'string') {
       return false;
     }
     return true;

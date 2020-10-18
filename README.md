@@ -19,7 +19,7 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 1.	Install Express
 2.	Create a server.js file
 3. Install Heroku
-4. Successfully generate a note-taker application to be deployed via Heroku file utlizing index.js and page-template.js, utlizing the command line for content
+4. Successfully generate a note-taker application to be deployed via Heroku, this application will allow the user to create notes (title and text), save them and see them displayed.  They will also have the ability to delete a note (empty field or newly saved note).
 
 
 ## Description/Usage: 

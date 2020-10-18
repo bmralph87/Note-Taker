@@ -16,14 +16,13 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 
 ## Objective
 1.	Install Express
-3.	Create an index.js and page-template.js file
-4. Generate an HTML file utlizing index.js and page-template.js, utlizing the command line for content
-5. Successfully generate a team profile app
-6.	Add audio file via screencastify recording
+2.	Create a server.js file
+3. Install Heroku
+4. Successfully generate a note-taker application to be deployed via Heroku file utlizing index.js and page-template.js, utlizing the command line for content
 
 
 ## Description/Usage: 
-Note-Taker is a Node.js command-line application that deploys a note-taking application using an Express.js back end and retrieves note data from a JSON file.
+Note-Taker is a Node.js command-line application that deploys a note-taking application using an Express.js back end and retrieves note data from a JSON file.  It is deployed via Heroku.
 
 
 #### My repo can be found [Here](https://github.com/bmralph87/Note-Taker)

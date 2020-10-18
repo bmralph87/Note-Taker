@@ -12,6 +12,7 @@ This project was created as an assignment for the PennLPS/TES Fullstack Bootcamp
 - Node.js
 - ES6+ Concepts
 - Express.js
+- Heroku
 
 
 ## Objective

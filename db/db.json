@@ -1,0 +1,59 @@
+{
+  "notes": [
+    {
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "0"
+    },
+    {
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "1"
+    },
+    {
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "2"
+    },
+    {
+      "title": "Note Title",
+      "text": "Note Text",
+      "id": "3"
+    },
+    {
+      "title": "Grocery List",
+      "text": "Honeycrisp Apples\nAvocado\nLemons\nLimes\nReduced Fat Wheat Thins\nVegan Shreds\nUnsweetened Vanilla Almond Milk\n",
+      "id": "5"
+    },
+    {
+      "title": "Grocery List",
+      "text": "Avocados\nLemons\nLimes\nCarrots\nKale\nHoneycrisp Apples\nUnsweetened Vanilla Almond Milk",
+      "id": "6"
+    },
+    {
+      "title": "Vet Appointment",
+      "text": "Take Rosie-Marie to vet and re-confirm appointment with Dr. Smagala on Saturday at noon.",
+      "id": "7"
+    },
+    {
+      "title": "Thanksgiving",
+      "text": "Start brainstorming for delicious gobble day desserts",
+      "id": "8"
+    },
+    {
+      "title": "Virtual Event",
+      "text": "Re-confirm your attendance!",
+      "id": "9"
+    },
+    {
+      "title": "Brows",
+      "text": "Remember to make brow appointment at Pretoria",
+      "id": "10"
+    },
+    {
+      "title": "Cleaners",
+      "text": "Drop off clothes at cleaners and find out how much extra they charge for coats",
+      "id": "11"
+    }
+  ]
+}

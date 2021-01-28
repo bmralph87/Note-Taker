@@ -34,13 +34,12 @@ Note-Taker is a Node.js command-line application that deploys a note-taking appl
 ## Sites used for Knowledge:
 
 [Node Installation](https://nodejs.org/en/download/package-manager/)
+
 [Heroku](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+
 [Express Installation](https://www.npmjs.com/package/express)
+
 [Express API Documentation](https://expressjs.com/en/4x/api.html)
+
 [Uninstalling Packages and Dependencies](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
 
-
-
-## Honorable Mention:
-
-Shout out to Debra Sparr, George Yoo and Lucianne Vazquez for all of their help!! 😁
